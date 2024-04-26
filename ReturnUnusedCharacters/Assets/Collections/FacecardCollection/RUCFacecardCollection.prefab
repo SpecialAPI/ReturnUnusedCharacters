@@ -1,0 +1,1781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1185601108275918}
+  m_IsPrefabParent: 1
+--- !u!1 &1185601108275918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4328301432739378}
+  - component: {fileID: 114840394969634324}
+  - component: {fileID: 114284225426392896}
+  m_Layer: 0
+  m_Name: RUCFacecardCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4328301432739378
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185601108275918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114284225426392896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185601108275918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: lamey_facecard_appear_003
+    boundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.125, z: 0}
+    position1: {x: 1.1875, y: 0.125, z: 0}
+    position2: {x: -1.1875, y: 2.5, z: 0}
+    position3: {x: 1.1875, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.007820313, y: 0.007820313}
+    - {x: 0.3046797, y: 0.007820313}
+    - {x: 0.007820313, y: 0.3046797}
+    - {x: 0.3046797, y: 0.3046797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_004
+    boundsDataCenter: {x: 0.03125003, y: 1.375, z: 0}
+    boundsDataExtents: {x: 1.6875, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.8125, y: 0.18750001, z: 0}
+    position1: {x: 0.87500006, y: 0.18750001, z: 0}
+    position2: {x: -0.8125, y: 2.5625, z: 0}
+    position3: {x: 0.87500006, y: 2.5625, z: 0}
+    uvs:
+    - {x: 0.3203203, y: 0.3203203}
+    - {x: 0.5312422, y: 0.3203203}
+    - {x: 0.3203203, y: 0.6171797}
+    - {x: 0.5312422, y: 0.6171797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_005
+    boundsDataCenter: {x: 0.000000029802322, y: 1.4375, z: 0}
+    boundsDataExtents: {x: 0.5, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.24999997, y: 0.25, z: 0}
+    position1: {x: 0.25000003, y: 0.25, z: 0}
+    position2: {x: -0.24999997, y: 2.625, z: 0}
+    position3: {x: 0.25000003, y: 2.625, z: 0}
+    uvs:
+    - {x: 0.8593828, y: 0.3203203}
+    - {x: 0.9218672, y: 0.3203203}
+    - {x: 0.8593828, y: 0.6171797}
+    - {x: 0.9218672, y: 0.6171797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_006
+    boundsDataCenter: {x: -0.03125, y: 1.4375, z: 0}
+    boundsDataExtents: {x: 1.6875, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.875, y: 0.25, z: 0}
+    position1: {x: 0.8125, y: 0.25, z: 0}
+    position2: {x: -0.875, y: 2.625, z: 0}
+    position3: {x: 0.8125, y: 2.625, z: 0}
+    uvs:
+    - {x: 0.3203203, y: 0.6328203}
+    - {x: 0.5312422, y: 0.6328203}
+    - {x: 0.3203203, y: 0.9296797}
+    - {x: 0.5312422, y: 0.9296797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_007
+    boundsDataCenter: {x: 0, y: 1.4375, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.25, z: 0}
+    position1: {x: 1.1875, y: 0.25, z: 0}
+    position2: {x: -1.1875, y: 2.625, z: 0}
+    position3: {x: 1.1875, y: 2.625, z: 0}
+    uvs:
+    - {x: 0.007820313, y: 0.3203203}
+    - {x: 0.3046797, y: 0.3203203}
+    - {x: 0.007820313, y: 0.6171797}
+    - {x: 0.3046797, y: 0.6171797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_003
+    boundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.25, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.5, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.125, z: 0}
+    position1: {x: 1.1875, y: 0.125, z: 0}
+    position2: {x: -1.1875, y: 2.5, z: 0}
+    position3: {x: 1.1875, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.007820313, y: 0.6328203}
+    - {x: 0.3046797, y: 0.6328203}
+    - {x: 0.007820313, y: 0.9296797}
+    - {x: 0.3046797, y: 0.9296797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_004
+    boundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.25, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.5, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.125, z: 0}
+    position1: {x: 1.1875, y: 0.125, z: 0}
+    position2: {x: -1.1875, y: 2.5, z: 0}
+    position3: {x: 1.1875, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.3203203, y: 0.007820313}
+    - {x: 0.6171797, y: 0.007820313}
+    - {x: 0.3203203, y: 0.3046797}
+    - {x: 0.6171797, y: 0.3046797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_001
+    boundsDataCenter: {x: 0.000000029802322, y: 1.1875, z: 0}
+    boundsDataExtents: {x: 0.5, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.24999997, y: 0, z: 0}
+    position1: {x: 0.25000003, y: 0, z: 0}
+    position2: {x: -0.24999997, y: 2.375, z: 0}
+    position3: {x: 0.25000003, y: 2.375, z: 0}
+    uvs:
+    - {x: 0.8593828, y: 0.3203203}
+    - {x: 0.9218672, y: 0.3203203}
+    - {x: 0.8593828, y: 0.6171797}
+    - {x: 0.9218672, y: 0.6171797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_002
+    boundsDataCenter: {x: -0.03125, y: 1.25, z: 0}
+    boundsDataExtents: {x: 1.6875, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.875, y: 0.0625, z: 0}
+    position1: {x: 0.8125, y: 0.0625, z: 0}
+    position2: {x: -0.875, y: 2.4375, z: 0}
+    position3: {x: 0.8125, y: 2.4375, z: 0}
+    uvs:
+    - {x: 0.5468828, y: 0.3203203}
+    - {x: 0.5468828, y: 0.5312422}
+    - {x: 0.8437422, y: 0.3203203}
+    - {x: 0.8437422, y: 0.5312422}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_008
+    boundsDataCenter: {x: 0.03125003, y: 1.375, z: 0}
+    boundsDataExtents: {x: 1.6875, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.8125, y: 0.18750001, z: 0}
+    position1: {x: 0.87500006, y: 0.18750001, z: 0}
+    position2: {x: -0.8125, y: 2.5625, z: 0}
+    position3: {x: 0.87500006, y: 2.5625, z: 0}
+    uvs:
+    - {x: 0.5468828, y: 0.5468828}
+    - {x: 0.5468828, y: 0.7578047}
+    - {x: 0.8437422, y: 0.5468828}
+    - {x: 0.8437422, y: 0.7578047}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_009
+    boundsDataCenter: {x: 0.000000029802322, y: 1.375, z: 0}
+    boundsDataExtents: {x: 0.5, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.24999997, y: 0.18750001, z: 0}
+    position1: {x: 0.25000003, y: 0.18750001, z: 0}
+    position2: {x: -0.24999997, y: 2.5625, z: 0}
+    position3: {x: 0.25000003, y: 2.5625, z: 0}
+    uvs:
+    - {x: 0.8593828, y: 0.3203203}
+    - {x: 0.9218672, y: 0.3203203}
+    - {x: 0.8593828, y: 0.6171797}
+    - {x: 0.9218672, y: 0.6171797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_001
+    boundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.25, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.5, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.125, z: 0}
+    position1: {x: 1.1875, y: 0.125, z: 0}
+    position2: {x: -1.1875, y: 2.5, z: 0}
+    position3: {x: 1.1875, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.007820313, y: 0.007820313}
+    - {x: 0.3046797, y: 0.007820313}
+    - {x: 0.007820313, y: 0.3046797}
+    - {x: 0.3046797, y: 0.3046797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_002
+    boundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.25, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.5, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.125, z: 0}
+    position1: {x: 1.1875, y: 0.125, z: 0}
+    position2: {x: -1.1875, y: 2.5, z: 0}
+    position3: {x: 1.1875, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.6328203, y: 0.007820313}
+    - {x: 0.9296797, y: 0.007820313}
+    - {x: 0.6328203, y: 0.3046797}
+    - {x: 0.9296797, y: 0.3046797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_010
+    boundsDataCenter: {x: -0.03125, y: 1.3125, z: 0}
+    boundsDataExtents: {x: 1.6875, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.875, y: 0.125, z: 0}
+    position1: {x: 0.8125, y: 0.125, z: 0}
+    position2: {x: -0.875, y: 2.5, z: 0}
+    position3: {x: 0.8125, y: 2.5, z: 0}
+    uvs:
+    - {x: 0.5468828, y: 0.3203203}
+    - {x: 0.5468828, y: 0.5312422}
+    - {x: 0.8437422, y: 0.3203203}
+    - {x: 0.8437422, y: 0.5312422}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_011
+    boundsDataCenter: {x: 0, y: 1.25, z: 0}
+    boundsDataExtents: {x: 2.375, y: 2.375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0, y: 1.3125, z: 0}
+    untrimmedBoundsDataExtents: {x: 2.375, y: 2.625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -1.1875, y: 0.0625, z: 0}
+    position1: {x: 1.1875, y: 0.0625, z: 0}
+    position2: {x: -1.1875, y: 2.4375, z: 0}
+    position3: {x: 1.1875, y: 2.4375, z: 0}
+    uvs:
+    - {x: 0.007820313, y: 0.007820313}
+    - {x: 0.3046797, y: 0.007820313}
+    - {x: 0.007820313, y: 0.3046797}
+    - {x: 0.3046797, y: 0.3046797}
+    material: {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+  textures:
+  - {fileID: 2800000, guid: fdd56dfe07793874496225656a49614d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 0
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: ee68c3afa7c572c44b0b0a33b5f29fb2
+  spriteCollectionName: RUCFacecardCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 8
+  buildKey: 439617886
+  dataGuid: ee68c3afa7c572c44b0b0a33b5f29fb2
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!114 &114840394969634324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185601108275918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c7a4b4ee15890498f818262bca0312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures: []
+  textureRefs: []
+  spriteSheets: []
+  fonts: []
+  defaults:
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    anchor: 6
+    pad: 1
+    colliderType: 4
+  platforms:
+  - name: 
+    spriteCollection: {fileID: 0}
+  managedSpriteCollection: 0
+  linkParent: {fileID: 0}
+  loadable: 0
+  atlasFormat: 0
+  maxTextureSize: 2048
+  forceTextureSize: 0
+  forcedTextureWidth: 2048
+  forcedTextureHeight: 2048
+  textureCompression: 0
+  atlasWidth: 128
+  atlasHeight: 128
+  forceSquareAtlas: 0
+  atlasWastage: 20.410156
+  allowMultipleAtlases: 0
+  removeDuplicates: 1
+  textureParams:
+  - name: lamey_facecard_appear_003
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 16a985d0f59e6ab41b5c91411792aecc, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_004
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: abdc81c487d1e9841a383aaa1c1e59d8, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_005
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 2d7ec354991e5fd46bc499bc571a67d9, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_006
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 5ea0d79937dc99e45bbfa295fd0919e6, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_007
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: ad6ff84c161805c418718b07b6ab8c15, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_003
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 71a80b8c6a31794498f21c95298eab28, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_004
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: a2d02118d251b1e4cb471c0505bb527c, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 36737646dfde92442b3a8d121b89e878, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 3ae75aae7fe86164c82d9aed5cfb1b74, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_008
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: c4bded281da007e4a8668b573feb8eee, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_009
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b9daf31ce4dcde543b5faac5ef2330b4, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: d1a2cf97c431de04ca0c7af48910a930, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_idle_002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 497271e937042db4183005440f809df1, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_010
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 9c3636a79a6623f409ab0a4e21377499, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: lamey_facecard_appear_011
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 0a4d91096d928ca448299a603bba6c32, type: 3}
+    materialId: 0
+    anchor: 7
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  spriteCollection: {fileID: 114284225426392896}
+  premultipliedAlpha: 0
+  altMaterials:
+  - {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+  atlasMaterials:
+  - {fileID: 2100000, guid: 0fd39501b62922a47832c14cb6d757b5, type: 2}
+  atlasTextures:
+  - {fileID: 2800000, guid: fdd56dfe07793874496225656a49614d, type: 3}
+  atlasTextureFiles: []
+  useTk2dCamera: 0
+  targetHeight: 640
+  targetOrthoSize: 10
+  sizeDef:
+    type: 1
+    orthoSize: 10
+    pixelsPerMeter: 16
+    width: 960
+    height: 640
+  globalScale: 1
+  globalTextureRescale: 1
+  attachPointTestSprites: []
+  pixelPerfectPointSampled: 0
+  filterMode: 0
+  wrapMode: 1
+  userDefinedTextureSettings: 1
+  mipmapEnabled: 0
+  anisoLevel: 1
+  physicsEngine: 0
+  physicsDepth: 0.1
+  disableTrimming: 0
+  disableRotation: 0
+  normalGenerationMode: 0
+  padAmount: 1
+  autoUpdate: 1
+  editorDisplayScale: 8.560001
+  version: 4
+  metadata:
+    type: 0
+    weight: 0
+    dungeonRoomSubType: 0
+    secondRoomSubType: 0
+    thirdRoomSubType: 0
+    preventWallStamping: 0
+    usesAnimSequence: 0
+    usesNeighborDependencies: 0
+    usesPerTileVFX: 0
+    tileVFXPlaystyle: 0
+    tileVFXChance: 0
+    tileVFXPrefab: {fileID: 0}
+    tileVFXOffset: {x: 0, y: 0}
+    tileVFXDelayTime: 0
+    tileVFXDelayVariance: 0
+    tileVFXAnimFrame: 0
+  assetName: 
+  linkedSpriteCollections: []

@@ -1,0 +1,3572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1317451377289298}
+  m_IsPrefabParent: 1
+--- !u!1 &1317451377289298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4955724351136404}
+  - component: {fileID: 114471400889352920}
+  - component: {fileID: 114484658310392238}
+  m_Layer: 0
+  m_Name: RUCItemCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4955724351136404
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317451377289298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114471400889352920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317451377289298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c7a4b4ee15890498f818262bca0312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures: []
+  textureRefs: []
+  spriteSheets: []
+  fonts: []
+  defaults:
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    anchor: 4
+    pad: 0
+    colliderType: 0
+  platforms:
+  - name: 
+    spriteCollection: {fileID: 0}
+  managedSpriteCollection: 0
+  linkParent: {fileID: 0}
+  loadable: 0
+  atlasFormat: 0
+  maxTextureSize: 2048
+  forceTextureSize: 0
+  forcedTextureWidth: 128
+  forcedTextureHeight: 128
+  textureCompression: 0
+  atlasWidth: 64
+  atlasHeight: 128
+  forceSquareAtlas: 0
+  atlasWastage: 13.781738
+  allowMultipleAtlases: 0
+  removeDuplicates: 1
+  textureParams:
+  - name: disguise_hat_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 268205892f7347646923f2d2493041d9, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands:
+    - connected: 1
+      points:
+      - {x: 1.5, y: 0.5}
+      - {x: 1.5, y: 7.5}
+      - {x: 7, y: 9.5}
+      - {x: 16, y: 11}
+      - {x: 9, y: 3}
+    dice: 0
+    diceUnitX: 106
+    diceUnitY: -982
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 16, y: 11}
+    polyColliderIslands:
+    - connected: 1
+      points:
+      - {x: 7, y: 0}
+      - {x: 7, y: 1}
+      - {x: 5, y: 1}
+      - {x: 5, y: 2}
+      - {x: 3, y: 2}
+      - {x: 3, y: 3}
+      - {x: 2, y: 3}
+      - {x: 2, y: 5}
+      - {x: 1, y: 5}
+      - {x: 1, y: 6}
+      - {x: 0, y: 6}
+      - {x: 0, y: 8}
+      - {x: 1, y: 8}
+      - {x: 1, y: 9}
+      - {x: 2, y: 9}
+      - {x: 2, y: 10}
+      - {x: 4, y: 10}
+      - {x: 4, y: 11}
+      - {x: 9, y: 11}
+      - {x: 9, y: 10}
+      - {x: 11, y: 10}
+      - {x: 11, y: 9}
+      - {x: 13, y: 9}
+      - {x: 13, y: 8}
+      - {x: 14, y: 8}
+      - {x: 14, y: 7}
+      - {x: 15, y: 7}
+      - {x: 15, y: 6}
+      - {x: 15, y: 6}
+      - {x: 16, y: 6}
+      - {x: 16, y: 4}
+      - {x: 15, y: 4}
+      - {x: 15, y: 3}
+      - {x: 14, y: 3}
+      - {x: 14, y: 1}
+      - {x: 12, y: 1}
+      - {x: 12, y: 0}
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: magnifying_glass_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 9e933b3a41a4b9a4192beeb3784d2a52, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: magnifying_glass_guon_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: e219111dc444e2444bcd3676ddeee7c0, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: agitprop_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 94756c891f637954b822eddf7a4fad6b, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: shadow_twin_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: e744f7d994ac44647bd36a6492789f9c, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: tamatebako_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 5857d91b652f0204ca5cfe4bd3b7f416, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: Contrackter
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 057107986fc71854694e85faea68b456, type: 3}
+    materialId: 0
+    anchor: 6
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: c877c557a340f4746823ba34c620f5d8, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 8acf532e8d54a4548a90ff684d87264e, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_003
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 681bb635867848c4496fa165774f9604, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_004
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b99d149820525c347b81f743e9c0639a, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_005
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: cbdd9f77a045b4f4f87e0e5708fa8f21, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_006
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 3bfefc3cbcb3bc34a88fcd8c7b258690, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_007
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b10073173fadc1e44bdab7d92fbeae43, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_008
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 3af932a29ba0b2e41b759ef891dd7d0e, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_009
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b68c6e24c8954ed458a9e1e54fd7eb2e, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_010
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: d12c8d2362f11f142848557ec59970d1, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_idle_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: f015b022d4bd17d4ba562d2c8d64540c, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_idle_002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 62384d5c9511eaa4daa94e535ae5ba75, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_012
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: e4c5f275de6759d44aba86781bfddbc5, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_006
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: ef6874295ce49a6448816641e8e9208c, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 01cd2d7e602f4894b99d947e7c395285, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_008
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 75e8041847d76794f9926c812d4c6502, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_004
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: b72e83b3318dac7428a582f6a9e4e443, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_001
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: f5039d92f1b709c469298e2608d0356b, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_010
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 242b9c155d1955240a108a3e52a60043, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_005
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 4eeef49a3b84c2c478e1268e72397ee0, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_003
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 90dc460c9cd018c4ea1a4aedf84676b4, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_007
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 19e26b81638d2c3428408f2477415046, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_009
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 28bdb387a81880b49bff1c59f7dca8f9, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_011
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: 9d0313a3fe91da84e9784966bd2641ed, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    type: 0
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    weight: 1
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 1
+    colliderData: []
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  spriteCollection: {fileID: 114484658310392238}
+  premultipliedAlpha: 0
+  altMaterials:
+  - {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+  atlasMaterials:
+  - {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+  atlasTextures:
+  - {fileID: 2800000, guid: 5e0be43054fdac24480d3148681cecd1, type: 3}
+  atlasTextureFiles: []
+  useTk2dCamera: 0
+  targetHeight: 640
+  targetOrthoSize: 10
+  sizeDef:
+    type: 1
+    orthoSize: 10
+    pixelsPerMeter: 16
+    width: 960
+    height: 640
+  globalScale: 1
+  globalTextureRescale: 1
+  attachPointTestSprites: []
+  pixelPerfectPointSampled: 0
+  filterMode: 0
+  wrapMode: 1
+  userDefinedTextureSettings: 1
+  mipmapEnabled: 0
+  anisoLevel: 1
+  physicsEngine: 0
+  physicsDepth: 0.1
+  disableTrimming: 0
+  disableRotation: 0
+  normalGenerationMode: 0
+  padAmount: 1
+  autoUpdate: 1
+  editorDisplayScale: 12.790004
+  version: 4
+  metadata:
+    type: 0
+    weight: 0
+    dungeonRoomSubType: 0
+    secondRoomSubType: 0
+    thirdRoomSubType: 0
+    preventWallStamping: 0
+    usesAnimSequence: 0
+    usesNeighborDependencies: 0
+    usesPerTileVFX: 0
+    tileVFXPlaystyle: 0
+    tileVFXChance: 0
+    tileVFXPrefab: {fileID: 0}
+    tileVFXOffset: {x: 0, y: 0}
+    tileVFXDelayTime: 0
+    tileVFXDelayVariance: 0
+    tileVFXAnimFrame: 0
+  assetName: 
+  linkedSpriteCollections: []
+--- !u!114 &114484658310392238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317451377289298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: disguise_hat_idle_001
+    boundsDataCenter: {x: 0.5, y: 0.34375, z: 0}
+    boundsDataExtents: {x: 1, y: 0.6875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.5, y: 0.34375, z: 0}
+    untrimmedBoundsDataExtents: {x: 1, y: 0.6875, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 1, y: 0, z: 0}
+    position2: {x: 0, y: 0.6875, z: 0}
+    position3: {x: 1, y: 0.6875, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.5546953}
+    - {x: 0.26560938, y: 0.5546953}
+    - {x: 0.015640626, y: 0.6406172}
+    - {x: 0.26560938, y: 0.6406172}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: magnifying_glass_idle_001
+    boundsDataCenter: {x: 0.28125, y: 0.5625, z: 0}
+    boundsDataExtents: {x: 0.5625, y: 1.125, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.28125, y: 0.5625, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.5625, y: 1.125, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 0.5625, y: 0, z: 0}
+    position2: {x: 0, y: 1.125, z: 0}
+    position3: {x: 0.5625, y: 1.125, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.7656328}
+    - {x: 0.15623437, y: 0.7656328}
+    - {x: 0.015640626, y: 0.9062422}
+    - {x: 0.15623437, y: 0.9062422}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: magnifying_glass_guon_idle_001
+    boundsDataCenter: {x: 0.375, y: 0.375, z: 0}
+    boundsDataExtents: {x: 0.75, y: 0.75, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.375, y: 0.375, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.75, y: 0.75, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 0.75, y: 0, z: 0}
+    position2: {x: 0, y: 0.75, z: 0}
+    position3: {x: 0.75, y: 0.75, z: 0}
+    uvs:
+    - {x: 0.46876562, y: 0.7265703}
+    - {x: 0.6562344, y: 0.7265703}
+    - {x: 0.46876562, y: 0.8203047}
+    - {x: 0.6562344, y: 0.8203047}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: agitprop_idle_001
+    boundsDataCenter: {x: 0.65625, y: 0.59375, z: 0}
+    boundsDataExtents: {x: 1.3125, y: 1.1875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.65625, y: 0.59375, z: 0}
+    untrimmedBoundsDataExtents: {x: 1.3125, y: 1.1875, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 1.3125, y: 0, z: 0}
+    position2: {x: 0, y: 1.1875, z: 0}
+    position3: {x: 1.3125, y: 1.1875, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.007820313}
+    - {x: 0.34373438, y: 0.007820313}
+    - {x: 0.015640626, y: 0.15624219}
+    - {x: 0.34373438, y: 0.15624219}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: shadow_twin_idle_001
+    boundsDataCenter: {x: 0.46875, y: 0.59375, z: 0}
+    boundsDataExtents: {x: 0.9375, y: 1.1875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.46875, y: 0.59375, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.1875, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 0.9375, y: 0, z: 0}
+    position2: {x: 0, y: 1.1875, z: 0}
+    position3: {x: 0.9375, y: 1.1875, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.17188281}
+    - {x: 0.015640626, y: 0.2890547}
+    - {x: 0.31248438, y: 0.17188281}
+    - {x: 0.31248438, y: 0.2890547}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: tamatebako_idle_001
+    boundsDataCenter: {x: 0.6875, y: 0.53125, z: 0}
+    boundsDataExtents: {x: 1.375, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.6875, y: 0.53125, z: 0}
+    untrimmedBoundsDataExtents: {x: 1.375, y: 1.0625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 1.375, y: 0, z: 0}
+    position2: {x: 0, y: 1.0625, z: 0}
+    position3: {x: 1.375, y: 1.0625, z: 0}
+    uvs:
+    - {x: 0.37501562, y: 0.007820313}
+    - {x: 0.7187344, y: 0.007820313}
+    - {x: 0.37501562, y: 0.14061719}
+    - {x: 0.7187344, y: 0.14061719}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Contrackter
+    boundsDataCenter: {x: 0.5, y: 0.375, z: 0}
+    boundsDataExtents: {x: 1, y: 0.75, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.5, y: 0.375, z: 0}
+    untrimmedBoundsDataExtents: {x: 1, y: 0.75, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: 0, y: 0, z: 0}
+    position1: {x: 1, y: 0, z: 0}
+    position2: {x: 0, y: 0.75, z: 0}
+    position3: {x: 1, y: 0.75, z: 0}
+    uvs:
+    - {x: 0.5781406, y: 0.5156328}
+    - {x: 0.8281094, y: 0.5156328}
+    - {x: 0.5781406, y: 0.6093672}
+    - {x: 0.8281094, y: 0.6093672}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_001
+    boundsDataCenter: {x: 0.03125, y: -0.093749985, z: 0}
+    boundsDataExtents: {x: 0.8125, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.375, y: -0.625, z: 0}
+    position1: {x: 0.4375, y: -0.625, z: 0}
+    position2: {x: -0.375, y: 0.43750003, z: 0}
+    position3: {x: 0.4375, y: 0.43750003, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.4375078}
+    - {x: 0.015640626, y: 0.5390547}
+    - {x: 0.28123438, y: 0.4375078}
+    - {x: 0.28123438, y: 0.5390547}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_002
+    boundsDataCenter: {x: 0.03125, y: -0.093750015, z: 0}
+    boundsDataExtents: {x: 0.8125, y: 1.1875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.375, y: -0.6875, z: 0}
+    position1: {x: 0.4375, y: -0.6875, z: 0}
+    position2: {x: -0.375, y: 0.49999997, z: 0}
+    position3: {x: 0.4375, y: 0.49999997, z: 0}
+    uvs:
+    - {x: 0.34376562, y: 0.3593828}
+    - {x: 0.5468594, y: 0.3593828}
+    - {x: 0.34376562, y: 0.5078047}
+    - {x: 0.5468594, y: 0.5078047}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_003
+    boundsDataCenter: {x: 0.03125, y: -0.03125003, z: 0}
+    boundsDataExtents: {x: 0.9375, y: 1.4375, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.4375, y: -0.75, z: 0}
+    position1: {x: 0.5, y: -0.75, z: 0}
+    position2: {x: -0.4375, y: 0.68749994, z: 0}
+    position3: {x: 0.5, y: 0.68749994, z: 0}
+    uvs:
+    - {x: 0.6406406, y: 0.21094531}
+    - {x: 0.8749844, y: 0.21094531}
+    - {x: 0.6406406, y: 0.3906172}
+    - {x: 0.8749844, y: 0.3906172}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_004
+    boundsDataCenter: {x: 0.03125, y: -0.06250003, z: 0}
+    boundsDataExtents: {x: 0.9375, y: 1.5, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.4375, y: -0.8125, z: 0}
+    position1: {x: 0.5, y: -0.8125, z: 0}
+    position2: {x: -0.4375, y: 0.68749994, z: 0}
+    position3: {x: 0.5, y: 0.68749994, z: 0}
+    uvs:
+    - {x: 0.7500156, y: 0.007820313}
+    - {x: 0.9843594, y: 0.007820313}
+    - {x: 0.7500156, y: 0.19530469}
+    - {x: 0.9843594, y: 0.19530469}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_005
+    boundsDataCenter: {x: 0.03125, y: -0.06250003, z: 0}
+    boundsDataExtents: {x: 0.9375, y: 1.5, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.4375, y: -0.8125, z: 0}
+    position1: {x: 0.5, y: -0.8125, z: 0}
+    position2: {x: -0.4375, y: 0.68749994, z: 0}
+    position3: {x: 0.5, y: 0.68749994, z: 0}
+    uvs:
+    - {x: 0.37501562, y: 0.15625781}
+    - {x: 0.6093594, y: 0.15625781}
+    - {x: 0.37501562, y: 0.3437422}
+    - {x: 0.6093594, y: 0.3437422}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_006
+    boundsDataCenter: {x: 0.03125, y: 0.21874997, z: 0}
+    boundsDataExtents: {x: 0.5625, y: 0.5625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.062500015, z: 0}
+    position1: {x: 0.3125, y: -0.062500015, z: 0}
+    position2: {x: -0.25, y: 0.49999997, z: 0}
+    position3: {x: 0.3125, y: 0.49999997, z: 0}
+    uvs:
+    - {x: 0.43751562, y: 0.8359453}
+    - {x: 0.5781094, y: 0.8359453}
+    - {x: 0.43751562, y: 0.9062422}
+    - {x: 0.5781094, y: 0.9062422}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_007
+    boundsDataCenter: {x: 0.0625, y: 0.21875, z: 0}
+    boundsDataExtents: {x: 0.375, y: 0.43750006, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.12499999, y: -0.000000029802322, z: 0}
+    position1: {x: 0.25, y: -0.000000029802322, z: 0}
+    position2: {x: -0.12499999, y: 0.43750003, z: 0}
+    position3: {x: 0.25, y: 0.43750003, z: 0}
+    uvs:
+    - {x: 0.8906406, y: 0.4062578}
+    - {x: 0.9843594, y: 0.4062578}
+    - {x: 0.8906406, y: 0.4609297}
+    - {x: 0.9843594, y: 0.4609297}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_008
+    boundsDataCenter: {x: 0.06250001, y: 0.18750001, z: 0}
+    boundsDataExtents: {x: 0.5, y: 0.875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.18749999, y: -0.24999997, z: 0}
+    position1: {x: 0.3125, y: -0.24999997, z: 0}
+    position2: {x: -0.18749999, y: 0.625, z: 0}
+    position3: {x: 0.3125, y: 0.625, z: 0}
+    uvs:
+    - {x: 0.8593906, y: 0.5156328}
+    - {x: 0.9843594, y: 0.5156328}
+    - {x: 0.8593906, y: 0.6249922}
+    - {x: 0.9843594, y: 0.6249922}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_009
+    boundsDataCenter: {x: 0.0625, y: 0.18750001, z: 0}
+    boundsDataExtents: {x: 0.625, y: 0.875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.24999997, z: 0}
+    position1: {x: 0.375, y: -0.24999997, z: 0}
+    position2: {x: -0.25, y: 0.625, z: 0}
+    position3: {x: 0.375, y: 0.625, z: 0}
+    uvs:
+    - {x: 0.18751563, y: 0.8046953}
+    - {x: 0.18751563, y: 0.8828047}
+    - {x: 0.40623438, y: 0.8046953}
+    - {x: 0.40623438, y: 0.8828047}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_defeat_010
+    boundsDataCenter: {x: 0.0625, y: 0.1875, z: 0}
+    boundsDataExtents: {x: 0.75, y: 1.125, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.3125, y: -0.375, z: 0}
+    position1: {x: 0.4375, y: -0.375, z: 0}
+    position2: {x: -0.3125, y: 0.75, z: 0}
+    position3: {x: 0.4375, y: 0.75, z: 0}
+    uvs:
+    - {x: 0.5781406, y: 0.4062578}
+    - {x: 0.5781406, y: 0.4999922}
+    - {x: 0.8593594, y: 0.4062578}
+    - {x: 0.8593594, y: 0.4999922}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_idle_001
+    boundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    boundsDataExtents: {x: 0.8125, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.1875, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.375, y: -0.5625, z: 0}
+    position1: {x: 0.4375, y: -0.5625, z: 0}
+    position2: {x: -0.375, y: 0.5, z: 0}
+    position3: {x: 0.4375, y: 0.5, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.4375078}
+    - {x: 0.015640626, y: 0.5390547}
+    - {x: 0.28123438, y: 0.4375078}
+    - {x: 0.28123438, y: 0.5390547}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_idle_002
+    boundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    boundsDataExtents: {x: 0.9375, y: 1.1875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.1875, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.4375, y: -0.625, z: 0}
+    position1: {x: 0.5, y: -0.625, z: 0}
+    position2: {x: -0.4375, y: 0.5625, z: 0}
+    position3: {x: 0.5, y: 0.5625, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.3046953}
+    - {x: 0.015640626, y: 0.4218672}
+    - {x: 0.31248438, y: 0.3046953}
+    - {x: 0.31248438, y: 0.4218672}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_012
+    boundsDataCenter: {x: 0.03125, y: 0.03125, z: 0}
+    boundsDataExtents: {x: 0.6875, y: 0.6875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.3125, y: -0.3125, z: 0}
+    position1: {x: 0.375, y: -0.3125, z: 0}
+    position2: {x: -0.3125, y: 0.375, z: 0}
+    position3: {x: 0.375, y: 0.375, z: 0}
+    uvs:
+    - {x: 0.6875156, y: 0.7812578}
+    - {x: 0.8593594, y: 0.7812578}
+    - {x: 0.6875156, y: 0.8671797}
+    - {x: 0.8593594, y: 0.8671797}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_006
+    boundsDataCenter: {x: 0.125, y: 0.18750001, z: 0}
+    boundsDataExtents: {x: 0.75, y: 0.875, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.24999997, z: 0}
+    position1: {x: 0.5, y: -0.24999997, z: 0}
+    position2: {x: -0.25, y: 0.625, z: 0}
+    position3: {x: 0.5, y: 0.625, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.6562578}
+    - {x: 0.015640626, y: 0.7499922}
+    - {x: 0.23435937, y: 0.6562578}
+    - {x: 0.23435937, y: 0.7499922}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_002
+    boundsDataCenter: {x: 0.03125, y: -0.15625, z: 0}
+    boundsDataExtents: {x: 0.6875, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.3125, y: -0.6875, z: 0}
+    position1: {x: 0.375, y: -0.6875, z: 0}
+    position2: {x: -0.3125, y: 0.375, z: 0}
+    position3: {x: 0.375, y: 0.375, z: 0}
+    uvs:
+    - {x: 0.31251562, y: 0.5234453}
+    - {x: 0.48435938, y: 0.5234453}
+    - {x: 0.31251562, y: 0.6562422}
+    - {x: 0.48435938, y: 0.6562422}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_008
+    boundsDataCenter: {x: -0.15624999, y: 0.09375003, z: 0}
+    boundsDataExtents: {x: 0.43750003, y: 0.43750006, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.375, y: -0.125, z: 0}
+    position1: {x: 0.06250003, y: -0.125, z: 0}
+    position2: {x: -0.375, y: 0.31250006, z: 0}
+    position3: {x: 0.06250003, y: 0.31250006, z: 0}
+    uvs:
+    - {x: 0.6093906, y: 0.8828203}
+    - {x: 0.7187344, y: 0.8828203}
+    - {x: 0.6093906, y: 0.9374922}
+    - {x: 0.7187344, y: 0.9374922}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_004
+    boundsDataCenter: {x: 0.09375, y: -0.093749985, z: 0}
+    boundsDataExtents: {x: 0.6875, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.625, z: 0}
+    position1: {x: 0.4375, y: -0.625, z: 0}
+    position2: {x: -0.25, y: 0.43750003, z: 0}
+    position3: {x: 0.4375, y: 0.43750003, z: 0}
+    uvs:
+    - {x: 0.5156406, y: 0.6250078}
+    - {x: 0.5156406, y: 0.7109297}
+    - {x: 0.7812344, y: 0.6250078}
+    - {x: 0.7812344, y: 0.7109297}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_001
+    boundsDataCenter: {x: 0.03125, y: -0.093749985, z: 0}
+    boundsDataExtents: {x: 0.8125, y: 1.0625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.375, y: -0.625, z: 0}
+    position1: {x: 0.4375, y: -0.625, z: 0}
+    position2: {x: -0.375, y: 0.43750003, z: 0}
+    position3: {x: 0.4375, y: 0.43750003, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.4375078}
+    - {x: 0.015640626, y: 0.5390547}
+    - {x: 0.28123438, y: 0.4375078}
+    - {x: 0.28123438, y: 0.5390547}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_010
+    boundsDataCenter: {x: 0.03125001, y: 0.031249985, z: 0}
+    boundsDataExtents: {x: 0.3125, y: 0.31249997, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.12499999, y: -0.125, z: 0}
+    position1: {x: 0.18750001, y: -0.125, z: 0}
+    position2: {x: -0.12499999, y: 0.18749997, z: 0}
+    position3: {x: 0.18750001, y: 0.18749997, z: 0}
+    uvs:
+    - {x: 0.6406406, y: 0.15625781}
+    - {x: 0.7187344, y: 0.15625781}
+    - {x: 0.6406406, y: 0.19530469}
+    - {x: 0.7187344, y: 0.19530469}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_005
+    boundsDataCenter: {x: 0.15625, y: 0.0625, z: 0}
+    boundsDataExtents: {x: 0.6875, y: 1, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.18749999, y: -0.4375, z: 0}
+    position1: {x: 0.5, y: -0.4375, z: 0}
+    position2: {x: -0.18749999, y: 0.5625, z: 0}
+    position3: {x: 0.5, y: 0.5625, z: 0}
+    uvs:
+    - {x: 0.8125156, y: 0.6406328}
+    - {x: 0.9843594, y: 0.6406328}
+    - {x: 0.8125156, y: 0.7656172}
+    - {x: 0.9843594, y: 0.7656172}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_003
+    boundsDataCenter: {x: 0.03125, y: -0.15624997, z: 0}
+    boundsDataExtents: {x: 0.6875, y: 0.93750006, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.3125, y: -0.625, z: 0}
+    position1: {x: 0.375, y: -0.625, z: 0}
+    position2: {x: -0.3125, y: 0.31250006, z: 0}
+    position3: {x: 0.375, y: 0.31250006, z: 0}
+    uvs:
+    - {x: 0.26564062, y: 0.6718828}
+    - {x: 0.43748438, y: 0.6718828}
+    - {x: 0.26564062, y: 0.7890547}
+    - {x: 0.43748438, y: 0.7890547}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_007
+    boundsDataCenter: {x: 0.0625, y: 0.28125, z: 0}
+    boundsDataExtents: {x: 0.625, y: 0.5625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.000000029802322, z: 0}
+    position1: {x: 0.375, y: -0.000000029802322, z: 0}
+    position2: {x: -0.25, y: 0.5625, z: 0}
+    position3: {x: 0.375, y: 0.5625, z: 0}
+    uvs:
+    - {x: 0.015640626, y: 0.9218828}
+    - {x: 0.17185937, y: 0.9218828}
+    - {x: 0.015640626, y: 0.9921797}
+    - {x: 0.17185937, y: 0.9921797}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_009
+    boundsDataCenter: {x: -0.031249978, y: -0.031249978, z: 0}
+    boundsDataExtents: {x: 0.3125, y: 0.3125, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.18749999, y: -0.18749999, z: 0}
+    position1: {x: 0.12500003, y: -0.18749999, z: 0}
+    position2: {x: -0.18749999, y: 0.12500003, z: 0}
+    position3: {x: 0.12500003, y: 0.12500003, z: 0}
+    uvs:
+    - {x: 0.9062656, y: 0.21094531}
+    - {x: 0.9843594, y: 0.21094531}
+    - {x: 0.9062656, y: 0.24999219}
+    - {x: 0.9843594, y: 0.24999219}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: contrackter_vfx_lose_011
+    boundsDataCenter: {x: 0.03125, y: 0.031250045, z: 0}
+    boundsDataExtents: {x: 0.5625, y: 0.5625, z: 0}
+    untrimmedBoundsDataCenter: {x: 0.03125, y: -0.03125, z: 0}
+    untrimmedBoundsDataExtents: {x: 0.9375, y: 1.5625, z: 0}
+    texelSize: {x: 0.0625, y: 0.0625}
+    position0: {x: -0.25, y: -0.24999997, z: 0}
+    position1: {x: 0.3125, y: -0.24999997, z: 0}
+    position2: {x: -0.25, y: 0.31250006, z: 0}
+    position3: {x: 0.3125, y: 0.31250006, z: 0}
+    uvs:
+    - {x: 0.20314063, y: 0.8984453}
+    - {x: 0.34373438, y: 0.8984453}
+    - {x: 0.20314063, y: 0.9687422}
+    - {x: 0.34373438, y: 0.9687422}
+    material: {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+    materialId: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    metadata:
+      type: 0
+      weight: 0
+      dungeonRoomSubType: 0
+      secondRoomSubType: 0
+      thirdRoomSubType: 0
+      preventWallStamping: 0
+      usesAnimSequence: 0
+      usesNeighborDependencies: 0
+      usesPerTileVFX: 0
+      tileVFXPlaystyle: 0
+      tileVFXChance: 0
+      tileVFXPrefab: {fileID: 0}
+      tileVFXOffset: {x: 0, y: 0}
+      tileVFXDelayTime: 0
+      tileVFXDelayVariance: 0
+      tileVFXAnimFrame: 0
+    colliderVertices: []
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  SpriteIDsWithAttachPoints: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e000000
+  SpriteDefinedAttachPoints:
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  - attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 1294f22a5d00f7549a887f3cafe33dec, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 5e0be43054fdac24480d3148681cecd1, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 0
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 89b6e353426eb5c49bb1d7a362c143a9
+  spriteCollectionName: RUCItemCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 8
+  buildKey: 1928559145
+  dataGuid: 89b6e353426eb5c49bb1d7a362c143a9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

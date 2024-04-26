@@ -1,0 +1,927 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex:
+  - assetGUID: 331cbaf7c137a554eb111eef2f5e8551
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 107d7e54c11aa514b9a649a0cfefe890
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 60b5feaa3f274fa4797fe88c12b86b2c
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 82568b02c6cbb0b4786ad653a9308e8f
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 2d0ee4d88892e7246993f18d44296bf0
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex: []
+  spriteCollectionIndex:
+  - name: RUCWeaponCollection
+    spriteCollectionGUID: fc1a567885081414499ef700ab064abb
+    spriteCollectionDataGUID: fc1a567885081414499ef700ab064abb
+    spriteNames:
+    - cyberpistol_reload_002
+    - cyberpistol_idle_001
+    - cyberpistol_reload_001
+    - cybersmg_reload_001
+    - cyberpistol_reload_003
+    - cyberpistol_reload_004
+    - cyberpistol_reload_005
+    - cyberpistol_reload_006
+    - cyberpistol_reload_007
+    - cyberpistol_reload_008
+    - cyberpistol_fire_001
+    - cyberpistol_fire_002
+    - cyberpistol_fire_003
+    - cyberpistol_fire_004
+    - cybersmg_idle_001
+    - cybersmg_reload_002
+    - cybersmg_reload_003
+    - cybersmg_reload_004
+    - cybersmg_reload_005
+    - cybersmg_reload_006
+    - cybersmg_reload_007
+    - cybersmg_reload_008
+    - cybersmg_fire_001
+    - cybersmg_fire_002
+    - vegas_smg_idle_001
+    - vegas_smg_reload_001
+    - vegas_smg_reload_002
+    - vegas_smg_reload_003
+    - vegas_smg_reload_004
+    - vegas_smg_reload_005
+    - vegas_smg_reload_006
+    - vegas_smg_reload_007
+    - vegas_smg_reload_008
+    - vegas_smg_reload_009
+    - vegas_smg_fire_001
+    - vegas_smg_fire_002
+    - dot_zip_carbine_fire_001
+    - dot_zip_carbine_fire_002
+    - dot_zip_carbine_fire_003
+    - dot_zip_carbine_idle_001
+    - dot_zip_carbine_idle_empty_001
+    - dot_zip_carbine_reload_001
+    - dot_zip_carbine_reload_002
+    - dot_zip_carbine_reload_003
+    - dot_zip_carbine_reload_004
+    - dot_zip_carbine_reload_005
+    - dot_zip_carbine_reload_006
+    - dot_zip_carbine_reload_007
+    - dot_zip_carbine_reload_008
+    - dot_zip_carbine_reload_009
+    - dot_zip_carbine_reload_010
+    - dot_zip_carbine_reload_011
+    - dot_zip_carbine_reload_012
+    - dot_zip_carbine_reload_013
+    - dot_zip_carbine_reload_014
+    - altlamey_gun_fire_001
+    - altlamey_gun_fire_002
+    - altlamey_gun_fire_003
+    - altlamey_gun_idle_001
+    - altlamey_gun_reload_001
+    - altlamey_gun_reload_002
+    - winrar_fire_001
+    - winrar_fire_002
+    - winrar_fire_003
+    - winrar_idle_001
+    - winrar_idle_empty_001_001
+    - winrar_reload_001
+    - winrar_reload_002
+    - winrar_reload_003
+    - winrar_reload_004
+    - winrar_reload_005
+    - winrar_reload_006
+    - winrar_reload_007
+    - winrar_reload_008
+    - winrar_reload_009
+    - winrar_reload_010
+    - winrar_reload_011
+    - winrar_reload_012
+    - winrar_reload_013
+    - winrar_reload_014
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: RUCPunchoutCollection
+    spriteCollectionGUID: fa4b32b6c20da7541b686fbe7b97527f
+    spriteCollectionDataGUID: fa4b32b6c20da7541b686fbe7b97527f
+    spriteNames:
+    - lamey_punch_dodge_left_002
+    - lamey_punch_idle_002
+    - lamey_punch_punch_blocked_left_002
+    - lamey_punch_idle_001
+    - lamey_punch_hit_right_002
+    - lamey_punch_dodge_left_001
+    - lamey_punch_hit_left_001
+    - lamey_punch_star_004
+    - lamey_punch_star_009
+    - lamey_punch_hit_left_003
+    - lamey_punch_hit_right_001
+    - 
+    - lamey_punch_star_005
+    - lamey_punch_star_001
+    - lamey_punch_punch_blocked_left_003
+    - lamey_punch_idle_004
+    - lamey_punch_hit_right_003
+    - lamey_punch_win_003
+    - lamey_punch_dodge_right_002
+    - lamey_punch_punch_right_003
+    - lamey_punch_punch_blocked_right_003
+    - lamey_punch_punch_right_002
+    - lamey_punch_block_001
+    - lamey_punch_duck_002
+    - lamey_punch_miss_left_003
+    - lamey_punch_win_001
+    - lamey_punch_punch_left_003
+    - lamey_punch_miss_right_003
+    - lamey_punch_star_007
+    - lamey_punch_star_006
+    - lamey_punch_punch_blocked_right_002
+    - lamey_punch_punch_left_002
+    - lamey_punch_win_004
+    - lamey_punch_miss_left_002
+    - lamey_punch_punch_right_001
+    - lamey_punch_star_002
+    - 
+    - lamey_punch_exhaust_002
+    - lamey_punch_exhaust_001
+    - lamey_punch_miss_right_002
+    - lamey_punch_win_002
+    - lamey_punch_dodge_right_001
+    - lamey_punch_block_hit_001
+    - lamey_punch_duck_001
+    - lamey_punch_punch_left_001
+    - lamey_punch_hit_left_002
+    - lamey_punch_knockout_007
+    - lamey_punch_knockout_006
+    - lamey_punch_knockout_005
+    - lamey_punch_knockout_004
+    - lamey_punch_star_003
+    - lamey_punch_knockout_003
+    - lamey_punch_block_002
+    - lamey_punch_knockout_002
+    - lamey_punch_knockout_001
+    - lamey_punch_star_008
+    - 
+    - lamey_punch_exhaust_003
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: RUCLameyExtraCollection
+    spriteCollectionGUID: 63491b7101b983d448c978f3e624c7f5
+    spriteCollectionDataGUID: 63491b7101b983d448c978f3e624c7f5
+    spriteNames:
+    - lamey_select_bounty_slap_009
+    - lamey_select_idle_004
+    - lamey_select_select_003
+    - lamey_select_bounty_pull_007
+    - lamey_select_bored_007
+    - lamey_select_sneezing_003
+    - lamey_select_sneezing_006
+    - lamey_select_bounty_slap_007
+    - lamey_select_bored_004
+    - lamey_select_bored_005
+    - lamey_select_select_004
+    - lamey_select_bounty_pull_002
+    - lamey_select_bounty_slap_008
+    - lamey_select_select_010
+    - lamey_select_select_011
+    - lamey_select_sneezing_002
+    - lamey_select_bounty_slap_001
+    - lamey_select_bored_006
+    - lamey_select_idle_005
+    - lamey_select_bounty_pull_006
+    - lamey_select_bounty_slap_002
+    - lamey_select_bounty_pull_004
+    - lamey_select_bored_008
+    - lamey_select_bounty_hide_004
+    - lamey_select_bounty_hide_006
+    - lamey_select_bored_002
+    - lamey_select_bounty_slap_006
+    - lamey_select_bounty_pull_009
+    - lamey_select_bounty_pull_010
+    - lamey_select_select_005
+    - lamey_select_sneezing_004
+    - lamey_select_bounty_pull_001
+    - lamey_select_bounty_slap_004
+    - lamey_select_bored_009
+    - lamey_select_bounty_pull_003
+    - lamey_select_idle_002
+    - lamey_select_idle_001
+    - lamey_select_select_007
+    - lamey_select_sneezing_001
+    - lamey_select_bored_003
+    - lamey_select_select_006
+    - lamey_select_idle_003
+    - lamey_select_bored_010
+    - lamey_select_bounty_hide_002
+    - lamey_select_bored_011
+    - lamey_select_bounty_slap_005
+    - lamey_select_bounty_hide_005
+    - lamey_select_bounty_slap_003
+    - lamey_select_select_009
+    - lamey_select_bounty_hide_001
+    - lamey_select_bounty_pull_008
+    - lamey_select_select_008
+    - lamey_select_select_002
+    - lamey_select_bored_001
+    - lamey_select_select_001
+    - lamey_select_bounty_hide_003
+    - lamey_select_bounty_pull_005
+    - lamey_select_sneezing_005
+    - lamey_idle_back_twohands_002
+    - lamey_idle_back_twohands_003
+    - lamey_idle_back_twohands_004
+    - lamey_idle_back_hand_001
+    - lamey_idle_back_hand_002
+    - lamey_idle_back_hand_003
+    - lamey_idle_back_hand_004
+    - lamey_idle_back_twohands_001
+    - lamey_move_back_doorway_008
+    - lamey_move_back_doorway_010
+    - lamey_move_back_doorway_009
+    - lamey_move_back_doorway_007
+    - lamey_move_back_doorway_003
+    - lamey_move_back_doorway_002
+    - lamey_move_back_doorway_001
+    - lamey_move_back_doorway_005
+    - lamey_move_back_doorway_006
+    - lamey_move_back_doorway_004
+    - switcher_normal
+    - switcher_altskin
+    - lamey2_idle_back_twohands_002
+    - lamey2_idle_back_hand_002
+    - lamey2_idle_back_hand_003
+    - lamey2_idle_back_hand_004
+    - lamey2_idle_back_twohands_004
+    - lamey2_idle_back_twohands_001
+    - lamey2_idle_back_hand_001
+    - lamey2_idle_back_twohands_003
+    - lamey2_move_back_doorway_009
+    - lamey2_move_back_doorway_005
+    - lamey2_move_back_doorway_008
+    - lamey2_move_back_doorway_004
+    - lamey2_move_back_doorway_003
+    - lamey2_move_back_doorway_001
+    - lamey2_move_back_doorway_010
+    - lamey2_move_back_doorway_006
+    - lamey2_move_back_doorway_007
+    - lamey2_move_back_doorway_002
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: RUCItemCollection
+    spriteCollectionGUID: 89b6e353426eb5c49bb1d7a362c143a9
+    spriteCollectionDataGUID: 89b6e353426eb5c49bb1d7a362c143a9
+    spriteNames:
+    - disguise_hat_idle_001
+    - magnifying_glass_idle_001
+    - magnifying_glass_guon_idle_001
+    - agitprop_idle_001
+    - shadow_twin_idle_001
+    - tamatebako_idle_001
+    - Contrackter
+    - contrackter_vfx_defeat_001
+    - contrackter_vfx_defeat_002
+    - contrackter_vfx_defeat_003
+    - contrackter_vfx_defeat_004
+    - contrackter_vfx_defeat_005
+    - contrackter_vfx_defeat_006
+    - contrackter_vfx_defeat_007
+    - contrackter_vfx_defeat_008
+    - contrackter_vfx_defeat_009
+    - contrackter_vfx_defeat_010
+    - contrackter_vfx_idle_001
+    - contrackter_vfx_idle_002
+    - contrackter_vfx_lose_012
+    - contrackter_vfx_lose_006
+    - contrackter_vfx_lose_002
+    - contrackter_vfx_lose_008
+    - contrackter_vfx_lose_004
+    - contrackter_vfx_lose_001
+    - contrackter_vfx_lose_010
+    - contrackter_vfx_lose_005
+    - contrackter_vfx_lose_003
+    - contrackter_vfx_lose_007
+    - contrackter_vfx_lose_009
+    - contrackter_vfx_lose_011
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: RUCFacecardCollection
+    spriteCollectionGUID: ee68c3afa7c572c44b0b0a33b5f29fb2
+    spriteCollectionDataGUID: ee68c3afa7c572c44b0b0a33b5f29fb2
+    spriteNames:
+    - lamey_facecard_appear_003
+    - lamey_facecard_appear_004
+    - lamey_facecard_appear_005
+    - lamey_facecard_appear_006
+    - lamey_facecard_appear_007
+    - lamey_facecard_idle_003
+    - lamey_facecard_idle_004
+    - lamey_facecard_appear_001
+    - lamey_facecard_appear_002
+    - lamey_facecard_appear_008
+    - lamey_facecard_appear_009
+    - lamey_facecard_idle_001
+    - lamey_facecard_idle_002
+    - lamey_facecard_appear_010
+    - lamey_facecard_appear_011
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
