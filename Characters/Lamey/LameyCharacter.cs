@@ -24,6 +24,9 @@ namespace ReturnUnusedCharacters.Characters.Lamey
             lameyPlayer.startingAlternateGunIds = new() { ItemIds["altlamey_gun"] };
             lameyPlayer.startingActiveItemIds = new() { ItemIds["disguisehat"] };
             lameyPlayer.startingPassiveItemIds = new() { ItemIds["magnifyingglass"] };
+
+            lameyPlayer.stats.BaseStatValues[(int)PlayerStats.StatType.AdditionalItemCapacity] = 1;
+
             lameyPlayer.uiPortraitName = AddToAtlas("lamey_portrait");
             lameyPlayer.characterIdentity = PlayableCharactersE.Lamey;
             lameyPlayer.characterAudioSpeechTag = "convict";
