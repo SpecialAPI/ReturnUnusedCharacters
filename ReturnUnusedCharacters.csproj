@@ -282,7 +282,9 @@
   <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="packages.config" />
-    <EmbeddedResource Include="ReturnUnusedCharacters\Assets\AssetBundles\unusedchar_bundle" />
+    <EmbeddedResource Include="ReturnUnusedCharacters\Assets\AssetBundles\Linux\unusedchar_bundle" />
+    <EmbeddedResource Include="ReturnUnusedCharacters\Assets\AssetBundles\MacOS\unusedchar_bundle" />
+    <EmbeddedResource Include="ReturnUnusedCharacters\Assets\AssetBundles\Windows\unusedchar_bundle" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

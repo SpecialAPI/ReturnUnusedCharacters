@@ -25,7 +25,7 @@ namespace ReturnUnusedCharacters.Characters.Lamey
             lameyPlayer.startingActiveItemIds = new() { ItemIds["disguisehat"] };
             lameyPlayer.startingPassiveItemIds = new() { ItemIds["magnifyingglass"] };
 
-            lameyPlayer.stats.BaseStatValues[(int)PlayerStats.StatType.AdditionalItemCapacity] = 1;
+            lameyPlayer.ownerlessStatModifiers.Add(StatModifier.Create(PlayerStats.StatType.AdditionalItemCapacity, ModifyMethod.ADDITIVE, 1f));
 
             lameyPlayer.uiPortraitName = AddToAtlas("lamey_portrait");
             lameyPlayer.characterIdentity = PlayableCharactersE.Lamey;

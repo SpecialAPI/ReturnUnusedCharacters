@@ -209,6 +209,7 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
+  GenerateUV2: 0
 --- !u!114 &114962025779612462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,3 +234,4 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
+  GenerateUV2: 0

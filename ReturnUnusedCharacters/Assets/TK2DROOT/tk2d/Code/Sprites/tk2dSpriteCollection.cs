@@ -240,7 +240,7 @@ public class tk2dSpriteCollectionDefinition
 		regionH = src.regionH;
 		regionId = src.regionId;
 
-		colliderType = ColliderType.ForceNone; //src.colliderType;
+		colliderType = src.colliderType;
 		boxColliderMin = src.boxColliderMin;
 		boxColliderMax = src.boxColliderMax;
 		polyColliderCap = src.polyColliderCap;

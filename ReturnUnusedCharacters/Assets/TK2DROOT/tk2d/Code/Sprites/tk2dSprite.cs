@@ -15,6 +15,7 @@ public class tk2dSprite : tk2dBaseSprite
 	Vector3[] meshNormals = null;
 	Vector4[] meshTangents = null;
 	Color32[] meshColors;
+	public bool GenerateUV2;
 	
 	new void Awake()
 	{
@@ -100,15 +101,29 @@ public class tk2dSprite : tk2dBaseSprite
 		mesh.tangents = meshTangents;
 		mesh.colors32 = meshColors;
 		mesh.uv = sprite.uvs;
-		mesh.triangles = sprite.indices;
+
+        if (GenerateUV2)
+        {
+            mesh.uv2 = m_defaultUvs;
+        }
+
+        mesh.triangles = sprite.indices;
 		mesh.bounds = AdjustedMeshBounds( GetBounds(), renderLayer );
 		
 		UpdateMaterial();
 		CreateCollider();
 	}
-	
+
+    private static Vector2[] m_defaultUvs = new Vector2[4]
+	{
+		Vector2.zero,
+		Vector2.right,
+		Vector2.up,
+		Vector2.one
+	};
+
 #if UNITY_EDITOR
-	void OnValidate()
+    void OnValidate()
 	{
 		MeshFilter meshFilter = GetComponent<MeshFilter>();
 		if (meshFilter != null)

@@ -61,10 +61,19 @@ namespace ReturnUnusedCharacters
                     }
                 }
             }
-            using (var strem = asm.GetManifestResourceStream("ReturnUnusedCharacters.ReturnUnusedCharacters.Assets.AssetBundles.unusedchar_bundle"))
+
+            var platformFolder = Application.platform switch
+            {
+                RuntimePlatform.LinuxPlayer or RuntimePlatform.LinuxEditor => "Linux",
+                RuntimePlatform.OSXPlayer or RuntimePlatform.OSXEditor => "MacOS",
+                _ => "Windows"
+            };
+
+            using (var strem = asm.GetManifestResourceStream($"ReturnUnusedCharacters.ReturnUnusedCharacters.Assets.AssetBundles.{platformFolder}.unusedchar_bundle"))
             {
                 bundle = AssetBundle.LoadFromStream(strem);
             }
+
             SoundManager.Init();
             ETGModMainBehaviour.WaitForGameManagerStart(GMStart);
             UIRootPrefab = LoadHelper.LoadAssetFromAnywhere<GameObject>("UI Root").GetComponent<GameUIRoot>();
@@ -116,9 +125,43 @@ namespace ReturnUnusedCharacters
             Unlocks.Init();
             Synergies.Init();
 
+            //add console commands
+            ConsoleCommands();
 
             //load message
             LoadMessage();
+        }
+
+        public static void ConsoleCommands()
+        {
+            ETGModConsole.Commands.AddGroup("ccr");
+
+            var gr = ETGModConsole.Commands.GetGroup("ccr");
+
+            gr.AddUnit("unlock_everything", x =>
+            {
+                foreach(var fl in Unlocks.UnlockFlags)
+                {
+                    GameStatsManager.Instance.SetFlag(fl, true);
+                }
+
+                ETGModConsole.Log("All items in Cut Characters Reborn are now unlocked.");
+            });
+
+            gr.AddUnit("lock_everything", x =>
+            {
+                foreach (var fl in Unlocks.UnlockFlags)
+                {
+                    GameStatsManager.Instance.SetFlag(fl, false);
+                }
+
+                ETGModConsole.Log("All items in Cut Characters Reborn are now locked.");
+            });
+
+            var descs = ETGModConsole.CommandDescriptions;
+
+            descs["ccr unlock_everything"] = "Unlocks every unlockable item in Cut Characters Reborn";
+            descs["ccr lock_everything"] = "Locks every unlockable item in Cut Characters Reborn";
         }
 
         public static void LoadMessage()
@@ -175,6 +218,7 @@ namespace ReturnUnusedCharacters
                 group.Children.Add(new SRect(Color.clear) { Size = new((tex.width + 4) * scale, groupHeight) });
             }
 
+            ETGModConsole.Logger.LogMessage(txt);
             ETGModConsole.Instance.GUI[0].Children.Add(group);
         }
     }

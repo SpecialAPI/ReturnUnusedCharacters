@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 3935659677
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9a4b588de61b3a4ac24b9460dc7dd43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22c28751de3164ce357f61b0942dd054
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77ef0a107dd4346469517736d543be61, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ecaffc43a5d2b1d47858e3fb687e7271, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84c7a4b4ee15890498f818262bca0312, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2955e51c6e54748f1a3b9cd7f61aff91, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Weapons/WinRar.prefab
+- Assets/Collections/PunchoutCollection/Sprites/lamey_facecard_002.png
+- Assets/Items/Bounty.prefab
+- Assets/Collections/PunchoutCollection/Sprites/lamey_facecard_003.png
+- Assets/DfObjects/WinRarAmmoType.prefab
+- Assets/LoadMessageImages/lamey.png
+- Assets/Weapons/AltLamey_Gun.prefab
+- Assets/Collections/LameyExtraCollection/RUCLameyExtraCollection.prefab
+- Assets/DfSprites/winrar_clipempty.png
+- Assets/Collections/ItemCollection/RUCVFXAnimation.prefab
+- Assets/DfSprites/cybersmg_clipfull.png
+- Assets/DfSprites/cybersmg_clipempty.png
+- Assets/DfSprites/cyberpistol_clipempty.png
+- Assets/Items/DisguiseHat.prefab
+- Assets/Collections/ItemCollection/RUCItemCollection.prefab
+- Assets/DfSprites/altlameygun_clipempty.png
+- Assets/Weapons/CyberSMG.prefab
+- Assets/DfSprites/altlameygun_clipfull.png
+- Assets/Weapons/Dot_Zip_Carbine.prefab
+- Assets/Collections/PunchoutCollection/RUCPunchoutAnimation.prefab
+- Assets/DfObjects/CyberSMGAmmoType.prefab
+- Assets/DfObjects/CyberPistolAmmoType.prefab
+- Assets/Projectiles/VegasSMGProjectile.prefab
+- Assets/Characters/LameyBreachFlag.prefab
+- Assets/DfObjects/AltLameyGunAmmoType.prefab
+- Assets/Items/Tamatebako.prefab
+- Assets/Collections/PunchoutCollection/RUCPunchoutCollection.prefab
+- Assets/Characters/LameyOverheadPanel.prefab
+- Assets/Projectiles/DotZipCarbineSynergyProjectile.prefab
+- Assets/LameyAltCostumeSwapper.prefab
+- Assets/Projectiles/DotZipCarbineProjectile.prefab
+- Assets/Collections/WeaponCollection/RUCWeaponAnimations.prefab
+- Assets/lamey_items.png
+- Assets/lamey_portrait.png
+- Assets/Collections/WeaponCollection/RUCWeaponCollection.prefab
+- Assets/Collections/FacecardCollection/RUCFacecardAnimation.prefab
+- Assets/Items/ShadowTwin.prefab
+- Assets/Items/ContrackSkull.prefab
+- Assets/Weapons/CyberPistol.prefab
+- Assets/Projectiles/CyberSMGProjectile.prefab
+- Assets/LoadMessageImages/cosmo_hidden.png
+- Assets/Projectiles/VegasSMGStrangerShotProjectile.prefab
+- Assets/DfSprites/winrar_clipfull.png
+- Assets/Projectiles/VegasSMGStrangerProjectile.prefab
+- Assets/Projectiles/CyberPistolProjectile.prefab
+- Assets/DfObjects/DotZipCarbineAmmoType.prefab
+- Assets/Collections/LameyExtraCollection/RUCLameyExtraAnimation.prefab
+- Assets/LoadMessageImages/cosmo.png
+- Assets/LoadMessageImages/ninja.png
+- Assets/Items/MagnifyingGlass.prefab
+- Assets/Items/MagnifyingGlassGuon.prefab
+- Assets/DfSprites/cyberpistol_clipfull.png
+- Assets/Collections/PunchoutCollection/Sprites/lamey_facecard_001.png
+- Assets/Weapons/Vegas_SMG.prefab
+- Assets/DfSprites/dot_zip_carbine_clipempty.png
+- Assets/DfSprites/dot_zip_carbine_clipfull.png
+- Assets/Projectiles/AltLameyGunProjectile.prefab
+- Assets/Items/Agitprop.prefab
+- Assets/LoadMessageImages/ninja_hidden.png
+Dependencies: []

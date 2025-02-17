@@ -7,6 +7,8 @@ namespace ReturnUnusedCharacters
 {
     public static class Unlocks
     {
+        public static List<GungeonFlags> UnlockFlags = new();
+
         public static void Init()
         {
             // add unlock components
@@ -26,6 +28,10 @@ namespace ReturnUnusedCharacters
 
             Item["dot_zip_carbine"]     .SetupUnlockOnFlag(GungeonFlagsE.UNLOCKABLE_LICH_LAMEY);
             Item["vegas_smg"]           .SetupUnlockOnFlag(GungeonFlagsE.UNLOCKABLE_LICH_LAMEY);
+
+
+            // save all item unlock flags
+            UnlockFlags = new HashSet<GungeonFlags>(Item.Values.Where(x => x != null).SelectMany(x => x.encounterTrackable.prerequisites).Where(x => x.IsFlag() && x.requireFlag).Select(x => x.saveFlagToCheck)).ToList();
         }
     }
 

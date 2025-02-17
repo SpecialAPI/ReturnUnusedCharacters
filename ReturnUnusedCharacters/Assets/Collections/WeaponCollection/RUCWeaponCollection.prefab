@@ -134,8 +134,14 @@ MonoBehaviour:
     colliderType: 1
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
-    boxColliderMax: {x: 0, y: 0}
-    polyColliderIslands: []
+    boxColliderMax: {x: 20, y: 15}
+    polyColliderIslands:
+    - connected: 1
+      points:
+      - {x: 0, y: 0}
+      - {x: 0, y: 15}
+      - {x: 20, y: 15}
+      - {x: 20, y: 0}
     polyColliderCap: 1
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
@@ -194,11 +200,17 @@ MonoBehaviour:
     regionW: 0
     regionH: 0
     regionId: 0
-    colliderType: 1
+    colliderType: 4
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
     boxColliderMax: {x: 0, y: 0}
-    polyColliderIslands: []
+    polyColliderIslands:
+    - connected: 1
+      points:
+      - {x: 10.5, y: 0}
+      - {x: 2.5, y: 11}
+      - {x: 11, y: 8}
+      - {x: 15, y: 3}
     polyColliderCap: 1
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
@@ -383,11 +395,18 @@ MonoBehaviour:
     regionW: 0
     regionH: 0
     regionId: 0
-    colliderType: 1
+    colliderType: 4
     colliderData: []
     boxColliderMin: {x: 0, y: 0}
     boxColliderMax: {x: 0, y: 0}
-    polyColliderIslands: []
+    polyColliderIslands:
+    - connected: 1
+      points:
+      - {x: 0, y: 0}
+      - {x: 0, y: 15}
+      - {x: 17, y: 7}
+      - {x: 18, y: 6}
+      - {x: 18, y: 4}
     polyColliderCap: 1
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
@@ -5521,7 +5540,7 @@ MonoBehaviour:
     flipped: 0
     complexGeometry: 0
     physicsEngine: 0
-    colliderType: 1
+    colliderType: 3
     metadata:
       type: 0
       weight: 0
@@ -5539,7 +5558,15 @@ MonoBehaviour:
       tileVFXDelayTime: 0
       tileVFXDelayVariance: 0
       tileVFXAnimFrame: 0
-    colliderVertices: []
+    colliderVertices:
+    - {x: 0.65625, y: 0.6875, z: -0.1}
+    - {x: 0.65625, y: 0.6875, z: 0.1}
+    - {x: 0.15625, y: 0, z: -0.1}
+    - {x: 0.15625, y: 0, z: 0.1}
+    - {x: 0.6875, y: 0.1875, z: -0.1}
+    - {x: 0.6875, y: 0.1875, z: 0.1}
+    - {x: 0.9375, y: 0.5, z: -0.1}
+    - {x: 0.9375, y: 0.5, z: 0.1}
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints:
@@ -5671,7 +5698,7 @@ MonoBehaviour:
     flipped: 0
     complexGeometry: 0
     physicsEngine: 0
-    colliderType: 1
+    colliderType: 3
     metadata:
       type: 0
       weight: 0
@@ -5689,7 +5716,17 @@ MonoBehaviour:
       tileVFXDelayTime: 0
       tileVFXDelayVariance: 0
       tileVFXAnimFrame: 0
-    colliderVertices: []
+    colliderVertices:
+    - {x: -0.1875, y: 0.8125, z: -0.1}
+    - {x: -0.1875, y: 0.8125, z: 0.1}
+    - {x: -0.1875, y: -0.125, z: -0.1}
+    - {x: -0.1875, y: -0.125, z: 0.1}
+    - {x: 0.875, y: 0.375, z: -0.1}
+    - {x: 0.875, y: 0.375, z: 0.1}
+    - {x: 0.9375, y: 0.4375, z: -0.1}
+    - {x: 0.9375, y: 0.4375, z: 0.1}
+    - {x: 0.9375, y: 0.5625, z: -0.1}
+    - {x: 0.9375, y: 0.5625, z: 0.1}
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints:
@@ -10295,7 +10332,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 8
-  buildKey: 174707549
+  buildKey: 543959308
   dataGuid: fc1a567885081414499ef700ab064abb
   managedSpriteCollection: 0
   hasPlatformData: 0
