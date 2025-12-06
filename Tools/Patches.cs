@@ -40,32 +40,25 @@ namespace ReturnUnusedCharacters.Tools
 
         [HarmonyPatch(typeof(PunchoutController), nameof(PunchoutController.Init))]
         [HarmonyILManipulator]
-        public static void FixDodgeRollsShittyCodeAkaNoParadox(ILContext ctx)
+        public static void SwapToCustomPunchoutCharacter_Transpiler(ILContext ctx)
         {
             var cursor = new ILCursor(ctx);
 
-            foreach(var m in cursor.MatchBefore(x => x.Calls(r)))
+            foreach(var m in cursor.MatchAfter(x => x.MatchCallOrCallvirt(randomRange_IntInt)))
             {
-                cursor.Emit(OpCodes.Call, c);
+                cursor.Emit(OpCodes.Call, stcpc_cv);
             }
         }
 
-        [HarmonyPatch(typeof(PunchoutController), nameof(PunchoutController.Init))]
-        [HarmonyPostfix]
-        public static void SwapPlayer(PunchoutController __instance)
+        public static int SwapToCustomPunchoutCharacter_ChangeValue(int curr)
         {
             if (punchoutSprites.ContainsKey(GameManager.Instance.PrimaryPlayer.characterIdentity))
-            {
-                __instance.Player.SwapPlayer(punchoutSprites[GameManager.Instance.PrimaryPlayer.characterIdentity]);
-            }
+                return punchoutSprites[GameManager.Instance.PrimaryPlayer.characterIdentity];
+
+            return curr;
         }
 
-        public static int ChangeValue(int _)
-        {
-            return 7;
-        }
-
-        public static MethodInfo r = AccessTools.Method(typeof(Random), nameof(Random.Range), new Type[] { typeof(int), typeof(int) });
-        public static MethodInfo c = AccessTools.Method(typeof(Patches), nameof(ChangeValue));
+        public static MethodInfo randomRange_IntInt = AccessTools.Method(typeof(Random), nameof(Random.Range), new Type[] { typeof(int), typeof(int) });
+        public static MethodInfo stcpc_cv = AccessTools.Method(typeof(Patches), nameof(SwapToCustomPunchoutCharacter_ChangeValue));
     }
 }
