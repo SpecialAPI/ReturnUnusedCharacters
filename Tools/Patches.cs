@@ -85,7 +85,5 @@ namespace ReturnUnusedCharacters.Tools
 
         public static MethodInfo randomRange_IntInt = AccessTools.Method(typeof(Random), nameof(Random.Range), new Type[] { typeof(int), typeof(int) });
         public static MethodInfo stcpc_cv = AccessTools.Method(typeof(Patches), nameof(SwapToCustomPunchoutCharacter_ChangeValue));
-        public static MethodInfo psp_runa = AccessTools.Method(typeof(Patches), nameof(PunchoutSpaghimonPatch_ReplaceUINamesArray));
-        public static MethodInfo psp_rna = AccessTools.Method(typeof(Patches), nameof(PunchoutSpaghimonPatch_ReplaceNamesArray));
     }
 }
