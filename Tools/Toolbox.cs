@@ -432,6 +432,14 @@ namespace ReturnUnusedCharacters.Tools
             }
         }
 
+        public static void EmitStaticDelegate(this ILCursor crs, Delegate call)
+        {
+            if (call.GetInvocationList().Length != 1 || call.Target != null)
+                throw new ArgumentException("Delegate is either not static or has additional invocations");
+
+            crs.Emit(OpCodes.Call, call.Method);
+        }
+
         public static FoyerCharacterSelectFlag AddToBreach(this PlayerController player, string assetPath, Vector3 breachPosition, List<DungeonPrerequisite> unlockPrereqs, IntRect obstacle, IntRect bulletblocker,
             IntVector2 additionalShadowOffset, string overheadElementPath, string breachName, string facecardAnimationPrefix, float facecardIdleFps, string itemsTexture, string description1Text = null, string description2Text = null,
             string overrideChangeCharacterString = null, string overrideYesResponse = null, string overrideNoResponse = null)
@@ -1437,11 +1445,33 @@ namespace ReturnUnusedCharacters.Tools
             return selectflag;
         }
 
+        private static readonly FieldInfo UncachedPlayerNamesField = typeof(PunchoutPlayerController).GetField("PlayerNames", BindingFlags.NonPublic | BindingFlags.Static);
+        private static readonly FieldInfo UncachedPlayerUiNamesField = typeof(PunchoutPlayerController).GetField("PlayerUiNames", BindingFlags.NonPublic | BindingFlags.Static);
+
+        public static string[] UncachedPlayerNames => ((string[])UncachedPlayerNamesField.GetValue(null));
+        public static string[] UncachedPlayerUiNames => ((string[])UncachedPlayerUiNamesField.GetValue(null));
+
+        private static void AddPlayerName(string name)
+        {
+            UncachedPlayerNamesField.SetValue(null, UncachedPlayerNames.AddToArray(name));
+        }
+
+        private static void AddPlayerUiName(string name)
+        {
+            UncachedPlayerUiNamesField.SetValue(null, UncachedPlayerUiNames.AddToArray(name));
+        }
+
         public static void AddPunchoutSprites(this PlayerController p, string punchoutprefix, string facecardprefix)
         {
-            PunchoutPlayerController.PlayerNames = PunchoutPlayerController.PlayerNames.AddToArray(punchoutprefix);
-            punchoutSprites.Add(p.characterIdentity, PunchoutPlayerController.PlayerNames.Length);
-            PunchoutPlayerController.PlayerUiNames = PunchoutPlayerController.PlayerUiNames.AddToArray($"ccr_{facecardprefix}_00");
+            if (UncachedPlayerNames.Length == 7)
+            {
+                AddPlayerName("dummy");
+                AddPlayerUiName("dummy");
+            }
+
+            AddPlayerName(punchoutprefix);
+            punchoutSprites.Add(p.characterIdentity, UncachedPlayerNames.Length - 1);
+            AddPlayerUiName($"ccr_{facecardprefix}_00");
 
             punchoutFacecardAtlas.AddNewItemToAtlas(Plugin.bundle.LoadAsset<Texture2D>($"{facecardprefix}_001"), $"ccr_{facecardprefix}_001");
             punchoutFacecardAtlas.AddNewItemToAtlas(Plugin.bundle.LoadAsset<Texture2D>($"{facecardprefix}_002"), $"ccr_{facecardprefix}_002");

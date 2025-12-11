@@ -88,12 +88,6 @@ namespace ReturnUnusedCharacters
             punchoutAnim = punchoutPlayer.GetComponent<tk2dSpriteAnimator>().Library;
             punchoutFacecardAtlas = punchoutPlayer.PlayerUiSprite.Atlas;
 
-            if(PunchoutPlayerController.PlayerNames.Length == 7)
-            {
-                PunchoutPlayerController.PlayerNames = PunchoutPlayerController.PlayerNames.AddToArray("dummy");
-                PunchoutPlayerController.PlayerUiNames = PunchoutPlayerController.PlayerUiNames.AddToArray("dummy");
-            }
-
             punchoutColl = bundle.LoadAsset<GameObject>("RUCPunchoutCollection").GetComponent<tk2dSpriteCollectionData>();
             var poanim = bundle.LoadAsset<GameObject>("RUCPunchoutAnimation").GetComponent<tk2dSpriteAnimation>();
 
