@@ -171,15 +171,14 @@ namespace ReturnUnusedCharacters.Components
         [HarmonyILManipulator]
         public static void Explosion(ILContext ctx, MethodBase mthd)
         {
-            var cursor = new ILCursor(ctx);
-
+            var crs = new ILCursor(ctx);
             var explosionBegin = mthd.EnumeratorField("onExplosionBegin");
 
-            if (cursor.JumpToNext(x => x.MatchLdfld(explosionBegin)))
-            {
-                cursor.Emit(OpCodes.Ldarg_0);
-                cursor.Emit(OpCodes.Call, ioe);
-            }
+            if (!crs.JumpToNext(x => x.MatchLdfld(explosionBegin)))
+                return;
+
+            crs.Emit(OpCodes.Ldarg_0);
+            crs.EmitStaticDelegate(InvokeOnExplosion);
         }
 
         public static Action InvokeOnExplosion(Action _, object cr)
@@ -197,8 +196,6 @@ namespace ReturnUnusedCharacters.Components
 
             return _;
         }
-
-        public static MethodInfo ioe = AccessTools.Method(typeof(PlayerControllerExt), nameof(InvokeOnExplosion));
         #endregion
     }
 }

@@ -45,9 +45,7 @@ namespace ReturnUnusedCharacters.Tools
             var cursor = new ILCursor(ctx);
 
             foreach(var m in cursor.MatchAfter(x => x.MatchCallOrCallvirt(randomRange_IntInt)))
-            {
-                cursor.Emit(OpCodes.Call, stcpc_cv);
-            }
+                cursor.EmitStaticDelegate(SwapToCustomPunchoutCharacter_ChangeValue);
         }
 
         public static int SwapToCustomPunchoutCharacter_ChangeValue(int curr)
@@ -84,6 +82,5 @@ namespace ReturnUnusedCharacters.Tools
         }
 
         public static MethodInfo randomRange_IntInt = AccessTools.Method(typeof(Random), nameof(Random.Range), new Type[] { typeof(int), typeof(int) });
-        public static MethodInfo stcpc_cv = AccessTools.Method(typeof(Patches), nameof(SwapToCustomPunchoutCharacter_ChangeValue));
     }
 }
