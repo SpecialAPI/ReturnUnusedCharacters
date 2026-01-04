@@ -39,7 +39,7 @@ namespace ReturnUnusedCharacters
     {
         public const string GUID = "spapi.etg.cutcharactersreborn";
         public const string NAME = "Cut Characters Reborn";
-        public const string VERSION = "1.1.1";
+        public const string VERSION = "1.1.2";
         public static AssetBundle bundle;
         public static GameUIRoot UIRootPrefab;
 
