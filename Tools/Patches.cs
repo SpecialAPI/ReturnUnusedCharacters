@@ -81,6 +81,32 @@ namespace ReturnUnusedCharacters.Tools
             return UncachedPlayerNames;
         }
 
+        [HarmonyPatch(typeof(PunchoutPlayerController), nameof(PunchoutPlayerController.SwapPlayer))]
+        [HarmonyILManipulator]
+        public static void IgnoreDummyParadoxPlayerName_Transpiler(ILContext ctx)
+        {
+            var crs = new ILCursor(ctx);
+
+            if (!crs.JumpToNext(x => x.MatchCallOrCallvirt(randomRange_IntInt)))
+                return;
+
+            crs.EmitStaticDelegate(IgnoreDummyParadoxPlayerName_RerollIfDummy);
+        }
+
+        public static int IgnoreDummyParadoxPlayerName_RerollIfDummy(int curr)
+        {
+            const int DummyIndex = 7;
+
+            if (curr != DummyIndex)
+                return curr;
+
+            var newIdx = Random.Range(0, UncachedPlayerNames.Length - 1);
+            if (newIdx >= DummyIndex)
+                newIdx += 1;
+
+            return newIdx;
+        }
+
         public static MethodInfo randomRange_IntInt = AccessTools.Method(typeof(Random), nameof(Random.Range), new Type[] { typeof(int), typeof(int) });
     }
 }
