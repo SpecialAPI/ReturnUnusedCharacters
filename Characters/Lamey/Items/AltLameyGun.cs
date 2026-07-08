@@ -15,6 +15,7 @@ namespace ReturnUnusedCharacters.Characters.Lamey.Items
 
             var gun = EasyGunInit("altlamey_gun", name, shortdesc, longdesc, 500, 1.3f, WitchPistolObject.muzzleFlashEffects, "heavylaser", PickupObject.ItemQuality.SPECIAL, GunClass.NONE, out var finish, overrideConsoleId: "ccr:lamey_gun_alt");
             gun.InfiniteAmmo = true;
+            gun.PreventStartingOwnerFromDropping = true;
 
             var wpistolProj = WitchPistolObject.DefaultModule.projectiles[0].GetComponentInChildren<tk2dBaseSprite>();
             var proj = EasyProjectileInit<Projectile>("altlameygunprojectile", 5.5f, 23f, 1000f, 9f, true, false, false, wpistolProj.spriteId, wpistolProj.Collection);
@@ -61,6 +62,7 @@ namespace ReturnUnusedCharacters.Characters.Lamey.Items
 
             LameyGunObject.quality = PickupObject.ItemQuality.SPECIAL;
             LameyGunObject.gunClass = gun.gunClass;
+            LameyGunObject.PreventStartingOwnerFromDropping = true;
 
             LameyGunObject.encounterTrackable.journalData.PrimaryDisplayName =              EncounterDatabase.GetEntry(LameyGunObject.encounterTrackable.EncounterGuid).journalData.PrimaryDisplayName =                gun.encounterTrackable.journalData.PrimaryDisplayName;
             LameyGunObject.encounterTrackable.journalData.NotificationPanelDescription =    EncounterDatabase.GetEntry(LameyGunObject.encounterTrackable.EncounterGuid).journalData.NotificationPanelDescription =      gun.encounterTrackable.journalData.NotificationPanelDescription;
